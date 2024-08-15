@@ -24,42 +24,61 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid px-0">
-                            <a class="navbar-brand py-0" href="#">
-                                <img src="images/logo.png" alt="Dress Wala Logo" class="img-fluid">
+                    <nav class="navbar navbar-expand-md">
+                        <a class="navbar-brand py-0" href="#">
+                            <img src="images/logo.png" alt="Dress Wala Logo" class="img-fluid">
+                        </a>
+
+                        <div class="mobile-view d-md-none d-flex justify-content-center align-items-center">
+                            <a class="nav-link p-0 d-inline-block" href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
                             </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                            <button class="navbar-toggler border-0 pb-0 ms-3" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <i id="bar" class="fas fa-outdent"></i>
                             </button>
-                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                                <ul class="navbar-nav mb-2 mb-lg-0" id="navbar">
-                                    <li class="nav-item me-3">
-                                        <a class="nav-link p-0 position-relative d-inline-block active" id="nav-link"
-                                            aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item me-3">
-                                        <a class="nav-link p-0 position-relative d-inline-block" id="nav-link" href="#">Shop</a>
-                                    </li>
-                                    <li class="nav-item me-3">
-                                        <a class="nav-link p-0 position-relative d-inline-block" id="nav-link" href="#">Blog</a>
-                                    </li>
-                                    <li class="nav-item me-3">
-                                        <a class="nav-link p-0 position-relative d-inline-block" id="nav-link" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item me-3">
-                                        <a class="nav-link p-0 position-relative d-inline-block" id="nav-link" href="#">Contact</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link p-0 position-relative d-inline-block" id="nav-link" href="#">
-                                            <i class="fa-solid fa-bag-shopping"></i>
-                                        </a>
-                                    </li>
-                                </ul>
+                        </div>
+
+                        <div class="offcanvas offcanvas-end ps-3" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header pb-0">
+                                <i class="fa-solid fa-xmark" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+                                <!-- <button type="button" class="btn-close m-0" ></button> -->
+                            </div>
+                            <div class="offcanvas-body d-flex justify-content-md-end justify-content-start align-items-md-center">
+                                <div class="">
+                                    <ul class="navbar-nav mb-2 mb-lg-0" id="navbar">
+                                        <li class="nav-item me-md-4 mt-md-0 mt-3">
+                                            <a class="nav-link p-0 position-relative d-inline-block active" id="nav-link"
+                                                aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item me-md-4 mt-md-0 mt-3">
+                                            <a class="nav-link p-0 position-relative d-inline-block" id="nav-link"
+                                                href="#">Shop</a>
+                                        </li>
+                                        <li class="nav-item me-md-4 mt-md-0 mt-3">
+                                            <a class="nav-link p-0 position-relative d-inline-block" id="nav-link"
+                                                href="#">Blog</a>
+                                        </li>
+                                        <li class="nav-item me-md-4 mt-md-0 mt-3">
+                                            <a class="nav-link p-0 position-relative d-inline-block" id="nav-link"
+                                                href="#">About</a>
+                                        </li>
+                                        <li class="nav-item me-md-4 mt-md-0 mt-3">
+                                            <a class="nav-link p-0 position-relative d-inline-block" id="nav-link"
+                                                href="#">Contact</a>
+                                        </li>
+                                        <li class="nav-item mt-md-0 mt-3 d-md-inline-block d-none">
+                                            <a class="nav-link p-0 position-relative d-inline-block" id="nav-link" href="#">
+                                                <i class="fa-solid fa-bag-shopping"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
                             </div>
                         </div>
+
                     </nav>
                 </div>
             </div>
