@@ -28,29 +28,14 @@ p {
 
 .main_heading {
     font-size: 2.875em;
-    line-height: 3.375em;
+    font-weight: 700;
     color: var(--heading_color);
 }
 
-.mian_para {
+.main_para {
     font-size: 1em;
+    font-weight: 400;
     color: var(--paragraph_color);
-}
-
-.main_btn {
-    font: 13px;
-    font-weight: 600;
-    background-color: transparent;
-    color: #fff;
-    cursor: pointer;
-    border: 1px solid #fff;
-    outline: none;
-    transition: 0.2s ease;
-}
-
-.main_btn:hover {
-    background-color: var(--green);
-    border-color: var(--green);
 }
 
 .card_heading {
@@ -58,10 +43,6 @@ p {
     color: #1a1a1a;
 }
 
-.hero_heading {
-    font-size: 3.125em;
-    line-height: 4em;
-}
 
 
 /* ----------- start --> header-section ----------- */
@@ -148,10 +129,341 @@ p {
 
 /* ----------- end --> header-section ----------- */
 
+/* ----------- start --> hero-section ----------- */
+.hero-section {
+    background-image: url(/images/hero4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_heading {
+    font-size: 3.125em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--heading_color);
+}
+
+.hero-body h4 {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: var(--heading_color);
+}
+
+.hero-body h2 span {
+    font-size: 60px;
+    color: var(--green);
+}
+
+.shop_btn {
+    padding: 12px 70px;
+    background-color: transparent;
+    background-image: url(/images/button.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--green);
+    cursor: pointer;
+}
+
+/* ----------- end --> hero-section ----------- */
+
+/* ----------- start --> feature-section ----------- */
+.feature-card {
+    width: 150px !important;
+    display: inline-block;
+    border: 1px solid #cce7d0;
+    box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.03);
+}
+
+.feature-card:hover {
+    box-shadow: 0.625rem 0.625rem 3.375rem rgba(70, 62, 221, 0.1);
+}
+
+.feature_heading {
+    font-weight: 400;
+    color: var(--green);
+}
+
+.feature-card-one .feature_heading {
+    background-color: #fddde4;
+}
+
+.feature-card-two .feature_heading {
+    background-color: #cdebbc;
+}
+
+.feature-card-three .feature_heading {
+    background-color: #d1e8f2;
+}
+
+.feature-card-four .feature_heading {
+    background-color: #cdd4f8;
+}
+
+.feature-card-five .feature_heading {
+    background-color: #f6dbf6;
+}
+
+.feature-card-six .feature_heading {
+    background-color: #fff2e5;
+}
+
+/* ----------- end --> hero-section ----------- */
+
+/* ----------- start --> feature-product-section ----------- */
+.product-card,
+.arrival-card {
+    border: 1px solid #cce7d0;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+}
+
+.product-card:hover,
+.arrival-card:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.product-card img,
+.arrival-card img {
+    transition: all 0.3s ease;
+}
+
+.product-card img:hover,
+.arrival-card img:hover {
+    transform: scale(1.05);
+}
+
+.product-card-body span,
+.arrival-card-body span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product-card-body h5,
+.arrival-card-body h5 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.product-card-body .star .fa-star,
+.arrival-card-body .star .fa-star {
+    font-size: 13px;
+    color: rgb(243, 181, 25);
+}
+
+.product-card-body h4,
+.arrival-card-body h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--green);
+}
+
+.product-card a,
+.arrival-card a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cce7d0;
+    color: var(--green);
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    right: 10px;
+    bottom: 15px;
+}
+
+.product-card a .fa-shopping-cart,
+.arrival-card a .fa-shopping-cart {
+    font-size: 18px;
+}
+
+.product-card a:hover,
+.arrival-card a:hover {
+    background-color: #fff;
+}
+
+/* ----------- end --> feature-product-section ----------- */
+
+/* ----------- start --> explore-banner-section ----------- */
+.explore-banner {
+    background: url(/images/banner/b2.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.explore-banner h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.explore-banner h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.explore-banner a {
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 30px;
+    transition: 0.2s ease;
+    outline: none;
+}
+
+.explore-banner a:hover {
+    box-shadow: 0.625rem 0.625rem 3.375rem rgba(70, 62, 221, 0.1);
+    background-color: var(--green);
+    color: #fff;
+}
+
+.explore-banner h2 span {
+    color: #ef3636;
+}
+
+/* ----------- end --> explore-banner-section ----------- */
+
+/* ----------- start --> buy-and-upcoming-section ----------- */
+.buy-section {
+    background: url(/images/banner/b17.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.upcoming-section {
+    background: url(/images/banner/b10.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.buy-section h4,
+.upcoming-section h4 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.buy-section h2,
+.upcoming-section h2 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.buy-section p,
+.upcoming-section p {
+    color: #fff;
+
+}
+
+.buy-section a.main_btn,
+.upcoming-section a.main_btn {
+    font: 13px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.buy-section:hover a.main_btn,
+.upcoming-section:hover a.main_btn {
+    color: #fff;
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+/* ----------- end --> buy-and-upcoming-section ----------- */
+
+/* ----------- start --> seasonal-sale-section ----------- */
+.seasonal-section {
+    background: url(/images/banner/b7.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.footwear-section {
+    background: url(/images/banner/b4.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.tShirt-section {
+    background: url(/images/banner/b18.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.seasonal-section h2,
+.footwear-section h2,
+.tShirt-section h2 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.seasonal-section p,
+.footwear-section p,
+.tShirt-section p {
+    color: #ef3636;
+    font-weight: 600;
+}
+
+/* ----------- end --> seasonal-sale-section ----------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Start Media Query*/
 @media (max-width: 768px) {
     .offcanvas {
         background-color: #E3E6F3 !important;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    }
+}
+
+@media (max-width: 576px) {
+    .hero_heading {
+        font-size: 2.125em;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .hero-body h4 {
+        font-size: 1em;
+        font-weight: 500;
+        color: var(--heading_color);
+    }
+
+    .hero-body h2 span {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 376px) {
+    .hero_heading {
+        font-size: 2.15em;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .hero-body h4 {
+        font-size: 1em;
+        font-weight: 500;
+        color: var(--heading_color);
+    }
+
+    .hero-body h2 span {
+        font-size: 38px;
     }
 }
