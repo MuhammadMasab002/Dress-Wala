@@ -412,6 +412,89 @@ p {
 
 /* ----------- end --> seasonal-sale-section ----------- */
 
+/* ----------- start --> newsletter-section ----------- */
+.newsletter-section {
+    background: url(/images/banner/b14.png) no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    color: #fff;
+}
+
+.newsletter-heading h2 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.newsletter-heading p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #818ea0;
+}
+
+.newsletter-heading p span {
+    font-weight: 700;
+    color: #ffbd27;
+}
+
+.newsletter-section input {
+    box-shadow: none;
+    padding: 12px 24px;
+}
+
+.newsletter-section input:focus {
+    box-shadow: none;
+}
+
+.newsletter-btn {
+    color: #fff !important;
+    background-color: var(--green) !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+/* ----------- end --> newsletter-section ----------- */
+
+/* ----------- start --> footer-section ----------- */
+.footer-logo strong {
+    color: var(--green);
+}
+
+.footer-logo a,
+.footer-links a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.footer-logo a:hover,
+.footer-links a:hover {
+    color: var(--green);
+}
+
+.footer-links h5 {
+    font-weight: 600;
+    color: var(--heading_color);
+}
+
+.footer-links .fa-brands {
+    width: 35px;
+    height: 35px;
+    background-color: #222;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.footer-links .fa-brands:hover {
+    background-color: var(--green);
+}
+
+
+/* ----------- end --> footer-section ----------- */
+
 
 
 
