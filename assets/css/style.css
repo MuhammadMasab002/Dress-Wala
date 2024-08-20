@@ -35,12 +35,19 @@ p {
 .main_para {
     font-size: 1em;
     font-weight: 400;
-    color: var(--paragraph_color);
 }
 
 .card_heading {
     font-size: 14px;
     color: #1a1a1a;
+}
+
+.heading-color-black {
+    color: var(--heading_color);
+}
+
+.para-color-black {
+    color: var(--paragraph_color);
 }
 
 
@@ -131,17 +138,14 @@ p {
 
 /* ----------- start --> hero-section ----------- */
 .hero-section {
-    background-image: url(/images/hero4.png);
-    background-repeat: no-repeat;
+    background: url(/images/hero4.png) center no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 .hero_heading {
     font-size: 3.125em;
     font-weight: 700;
     letter-spacing: 1px;
-    color: var(--heading_color);
 }
 
 .hero-body h4 {
@@ -219,6 +223,10 @@ p {
     border: 1px solid #cce7d0;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
 }
+.product-card .product-img,
+.arrival-card .arrival-img {
+    background-color: #f0f0f0;
+}
 
 .product-card:hover,
 .arrival-card:hover {
@@ -228,6 +236,9 @@ p {
 .product-card img,
 .arrival-card img {
     transition: all 0.3s ease;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    mix-blend-mode: darken;
 }
 
 .product-card img:hover,
@@ -495,6 +506,13 @@ p {
 /* ----------- end --> footer-section ----------- */
 
 
+/* ---------------=- start --> shop-page -=--------------- */
+
+.shop-hero-section {
+    background: url(/images/banner/shop-banner.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
 
 
 
