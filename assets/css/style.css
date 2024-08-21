@@ -176,7 +176,7 @@ p {
 
 /* ----------- start --> feature-section ----------- */
 .feature-card {
-    width: 150px !important;
+    width: 190px !important;
     display: inline-block;
     border: 1px solid #cce7d0;
     box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.03);
